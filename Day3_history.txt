@@ -268,3 +268,324 @@
   268  docker ps
   269  history
   270  history > Day3_history.txt
+    1  java -jar jenkins.war --httpPort=8000
+    2  apt-get install default-jdk
+    3  java -version
+    4  apt-get install default-jdk
+    5  wget http://mirros.jenkins.io/war-stable/latest/jenkins.war
+    6  sudo
+    7  sudo wget http://mirros.jenkins.io/war-stable/latest/jenkins.war
+    8  sudo wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+    9  ls
+   10  java -jar jenkins.war --httpPort=3000&
+   11  java -jar jenkins.war --httpPort=3000
+   12  java -jar jenkins.war --httpPort=3000 &
+   13  java -jar jenkins.war --httpPort=3000 
+   14  clear
+   15  java -jar jenkins.war --httpPort=3000 
+   16  sudo apt install default-jdk
+   17  cat /etc/*-release
+   18  lls
+   19  java --version 
+   20  java -version 
+   21  apt-get remove java -y 
+   22  apt-get remove "9-internal"
+   23  apt-get remove openjdk -y 
+   24  sudo apt-get  install default-jdk
+   25  systemctl status jenkins.service
+   26  systemctl stop jenkins.service
+   27  systemctl status jenkins.service
+   28  lls
+   29  ls
+   30  apt-get update;  apt-get  install default-jdk
+   31  apt-get update;  apt-get  remove -y  default-jdk
+   32  apt-get update;  apt-get  remove -y  jenkins
+   33  apt-get update;  apt-get  remove -y  default-jdk
+   34  java -version 
+   35  apt-get update;  apt-get  remove -y  default-jdk-*
+   36  java -version 
+   37  apt-get update;  apt-get  remove -y  default-jdk-9
+   38  apt-get update;  apt-get  remove -y  default-jdk-9-internal
+   39  apt-get update;  apt-get  remove -y  oepnjdk-9-internal
+   40  apt-get update;  apt-get  remove -y  openjdk-9-internal
+   41  apt-get update;  apt-get  remove -y  openjdk*
+   42  l
+   43  java -version 
+   44  apt-get update; apt-get install default-jdk -y 
+   45  java -version 
+   46  ls
+   47  java -jar jenkins.war --httpPort=8080 & 
+   48  sudo ufw allow 8081
+   49  sudo ufw allow 9090
+   50  sudo ufw allow 9091
+   51  sudo ufw allow 3000
+   52  sudo ufw status
+   53  java -jar jenkins.war --httpPort=3000 & 
+   54  java -jar jenkins.war --httpPort=8080 & 
+   55  java -jar jenkins.war --httpPort=8000 & 
+   56  java -jar jenkins.war --httpPort=8085 & 
+   57  ps -ef|grab jenkins
+   58  ps -ef |grap jenkins
+   59  ps -ef |grep jenkins
+   60  kill -9 14354 16406 17235
+   61  ps -ef |grep jenkins
+   62  ufw status
+   63  kill -9 17379
+   64  java -jar jenkins.war --httpPort=9090
+   65  ls
+   66  wget https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-$latest.zip;bt_package=jfrog-artifactory-oss-zip
+   67  java -jar jenkins.war --httpPort=9090 $
+   68  wget https://api.bintray.com/content/jfrog/artifactory/jfrog-artifactory-oss-$latest.zip;bt_package=jfrog-artifactory-oss-zip
+   69  java -jar jenkins.war --httpPort=9090 &
+   70  wget https://akamai.bintray.com/6e/6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a?__gda__=exp=1568883875~hmac=26f1842a607c873f4e44e551109f9dc948f5245bd1b3f5ff91ab42b5f46c4911&response-content-disposition=attachment%3Bfilename%3D%22jfrog-artifactory-oss-6.12.2.zip%22&response-content-type=application%2Foctet-stream&requestInfo=U2FsdGVkX1-RXgCYVh93XPIDUpgWrbYNRgZd3dOVKWwgNoWyBagMiVEBxk9cb0MSZZi-_ycFgZhYfLb7guu1sZ1ZZXVtmSfket9Lt13bzsx6ifKYGSljG6d_w9qwpLxf9d3bW-qNyuf9wRRr1kxLDrPBJwFY8DERaKI88S5PUFA&response-X-Checksum-Sha1=786a806d4e3b0eef1c6cee64616ed5aa1f45f60d&response-X-Checksum-Sha2=6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a
+   71  ls
+   72  file 6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a\?__gda__\=exp\=1568883875~hmac\=26f1842a607c873f4e44e551109f9dc948f5245bd1b3f5ff91ab42b5f46c4911
+   73  mv 6e6c653a6053e74daa19f0812675fb739e9db6b2cffc77856965c4e178e1307a\?__gda__\=exp\=1568883875~hmac\=26f1842a607c873f4e44e551109f9dc948f5245bd1b3f5ff91ab42b5f46c4911 jfrog.zip
+   74  ls
+   75  unzip jfrog.zip 
+   76  apt install unzip
+   77  unzip jfrog.zip 
+   78  artifactory-oss-6.12.2/bin/artifactory.sh
+   79  artifactory-oss-6.12.2/bin/artifactory.sh &
+   80  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.1.zip
+   81  ls
+   82  unzip sonarqube-7.9.1.zip 
+   83  cs sonarqube-7.9.1
+   84  cd sonarqube-7.9.1
+   85  cd bin
+   86  cd linux-x86-64/
+   87  ./sonar.sh 
+   88  ./sonar.sh start &
+   89  artifactory-oss-6.12.2/bin/artifactory.sh
+   90  artifactory-oss-6.12.2/bin/artifactory.sh &
+   91  ps -ef
+   92  ps aux | grep -i artifactory
+   93  artifactory-oss-6.12.2/bin/artifactory.sh restart &
+   94  systemctl status artifactory
+   95  systemctl enable artifactory
+   96  netstat -tulnp
+   97  kill -3692
+   98  kill -3692/java
+   99  systemctl stop artifactory
+  100  ls
+  101  cd artifactory-oss-6.12.2/
+  102  ls
+  103  systemctl stop artifactory
+  104  cd bin
+  105  systemctl stop artifactory
+  106  cd..
+  107  cd.
+  108  cd..
+  109  cd ~
+  110  clear
+  111  apt-get update
+  112  apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  113  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  114  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  115     $(lsb_release -cs) \
+  116     stable"
+  117  apt-get update
+  118  apt-get install docker-ce docker-ce-cli containerd.io
+  119  docker version
+  120  clear
+  121  history
+  122  clear
+  123  docker version
+  124  clear
+  125  docker images
+  126  docker run busybox echo "Welcome to docker"
+  127  docker run busybox echo "Welcome to docker - 2"
+  128  docker ps
+  129  docker ps -a
+  130  docker run -itd busybox
+  131  docker ps
+  132  docker kill 680b690c1104
+  133  docker ps
+  134  docker run -it --name myapp-01 busybox 
+  135  docker ps
+  136  docker ps -a
+  137  docker run -itd --name myapp-02 busybox 
+  138  docker run -itd --name myapp-03 busybox 
+  139  docker run -itd --name ppe-03 busybox 
+  140  docker ps
+  141  docker attach myapp-02
+  142  docker -ps
+  143  docker ps
+  144  clear
+  145  docker start myapp-02
+  146  docker ps
+  147  docker attach myapp-02
+  148  docker kill myapp-02
+  149  docker rm myapp-02
+  150  docker ps -a
+  151  clean
+  152  history
+  153  cclean
+  154  clear
+  155  docker runbusybox echo "hi"
+  156  docker run busybox echo "hi"
+  157  docker ps - a
+  158  docker ps -a
+  159  docker run -it busybox echo "hi"
+  160  docker ps
+  161  docker ps -a
+  162  docker start romantic_bhabha
+  163  docker attach romantic_bhabha
+  164  docker kill romantic_bhabha
+  165  docker start romantic_bhabha
+  166  docker kill romantic_bhabha
+  167  docker rm romantic_bhabha
+  168  docker start ppe-03
+  169  docker attach ppe-03
+  170  clear
+  171  docker ps
+  172  docker ps -a
+  173  docker ps -aq
+  174  docker kill $(docker ps -aq)
+  175  docker rs $(docker ps -aq)
+  176  docker rm $(docker ps -aq)
+  177  clear
+  178  docker run -it ubuntu:16.04
+  179  docker run -it -p 30080:80 ubuntu
+  180  docker ps
+  181  netstat -tulnp
+  182  docker ps
+  183  docker attach pedantic_curran
+  184  curl 172.17.0.2
+  185  netstat
+  186  netstat -tulnp
+  187  docker run -it -p 8085:80 ubuntu
+  188  curl 172.17.0.2
+  189  ip addr
+  190  netsta -tulnp
+  191  netstat -tulnp
+  192  curl localhost:8085
+  193  docker ps
+  194  docker attach pedantic_curran
+  195  docker attach naughty_visvesvaraya
+  196  docker attach naughty_visvesvaraya
+  197  quit
+  198  cd~
+  199  cd ~
+  200  docker ps -a
+  201  docker start pedantic_curran
+  202  apachectl start
+  203  apt install apache2
+  204  
+  205  clear
+  206  docker images
+  207  docker ps -a
+  208  docker pull amitvashisht7/myapache-acc:v3
+  209  docker pull amitvashisht7/myapache-acc
+  210  docker pull amitvashist7/myapache-acc
+  211  history
+  212  @vmadmin4870
+  213  #@vmadmin4870
+  214  ls
+  215  git clone https://github.com/amitvashist7/devops-mind-21092019.git
+  216  git clone https://github.com/kajal1806/docker-day3.git
+  217  ls
+  218  cd docker-day3
+  219  mkdir docker
+  220  ls
+  221  mkdir dockerfiles
+  222  ls
+  223  cd dockerfiles
+  224  mkdir myapache
+  225  cd myapache
+  226  cd ~
+  227  /home/vmadmin487
+  228  cd home/vmadmin487
+  229  ls
+  230  cd home
+  231  cd..
+  232  cd home
+  233  cd home/
+  234  cd home
+  235  ls
+  236  pwd
+  237  clear
+  238  ls
+  239  pwd
+  240  sudo su
+  241  ls
+  242  cd docker-day3/
+  243  git add .
+  244  git commit -m "commit 1"
+  245  ls
+  246  date >> abc
+  247  ls
+  248  git add .
+  249  git commit -m "1"
+  250  git push origin master
+  251  cd/
+  252  cd..
+  253  cd ..
+  254  git clone https://github.com/kajal1806/docker-day3.git
+  255  rm docker-day3/
+  256  ls
+  257  rm -r docker-day3
+  258  ls
+  259  git clone https://github.com/kajal1806/docker-day3.git
+  260  ls
+  261  cd docker-day3/
+  262  ls
+  263  docker build -t frstimage:v1 .
+  264  git pull origin master
+  265  docker build -t frstimage:v1 .
+  266  docker images
+  267  docker run -d -p 8081:80 frstimage:v1
+  268  docker ps
+  269  history
+  270  history > Day3_history.txt
+  271  ls
+  272  rm abc
+  273  ls
+  274  git add .
+  275  git commint -m "commiting history file - refer from 265"
+  276  git commit -m "commiting history file - refer from 265"
+  277  git push origin master
+  278  git pull origin master
+  279  docker build -t frstimage:v2 .
+  280  docker images
+  281  docker run -d -p 8085:80 frstimage:v2 
+  282  docker ps
+  283  git status
+  284  curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  285  docker compose -version
+  286  docker compose --version
+  287  docker-compose --version
+  288  curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s-uname -m` -o /usr/local/bin/docker-compose
+  289  chmod +x /usr/local/bin/docker-compose
+  290  docker-compose --version
+  291  docker-compose 
+  292  docker-compose
+  293  docker compose version
+  294  docker compose --version
+  295  docker compose version
+  296  docker-compose -v --version
+  297  sudo curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s-uname -m` -o /usr/local/bin/docker-compose
+  298  sudo chmod +x /usr/local/bin/docker-compose
+  299  docker-compose -v --version
+  300  ls
+  301  docker-compose --help
+  302  sudo curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s-uname -m` -o /usr/local/bin/docker-compose
+  303  curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s-uname -m` -o /usr/local/bin/docker-compose
+  304* curl -L "https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  305  docker-compose -v --version
+  306  ls
+  307  curl -L "https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  308  docker-compose -v --version
+  309  vim docker-compose.yaml
+  310  cat docker-compose.yaml
+  311  ls
+  312  docker-compose up -d --build
+  313  vim docker-compose.yaml 
+  314  docker-compose up -d --build
+  315  vim docker-compose.yaml 
+  316  docker-compose up -d --build
+  317  vim docker-compose.yaml 
+  318  git status
+  319  git add .
+  320  git commit -m "adding docker compose"
+  321  history >> Day3_history.txt
