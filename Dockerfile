@@ -13,6 +13,9 @@ RUN apt-get install apache2 -y
 # Custom Index Page
 RUN echo "HELLO WORLD.!!!" > /var/www/html/hello.html
 
+#Add my file
+Copy sample.html /var/www/html/
+
 # EXPOSE the PORT 
 EXPOSE 80
 
